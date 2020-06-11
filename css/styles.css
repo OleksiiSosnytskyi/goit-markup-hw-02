@@ -1,0 +1,155 @@
+/* background: #FFFFFF; шапка
+background: #E5E5E5; постоянные клиенты основной цвет  страници
+color: #757575; основной текс
+color: #212121; заголовки
+color: #2196F3; синий цвет  info@devstudio.com
+background: #AFB1B8; цвет соц.сетей
+background: #F5F4FA; цвет фона преимуществ . наша команда
+background: rgba(47, 48, 58, 0.8); Десктопные приложения.Мобильные приложения.
+background: #2F303A; подвал основной цвет
+color: rgba(255, 255, 255, 0.6); info@example.com +38 099 111 11 11 */
+
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --secondary-background-color: #F5F4FA;
+     }
+
+  body {
+    background-color: #ffffff;
+    color: var(--primary-text-color);
+  }
+
+  a {
+      text-decoration:none;
+  }
+
+  .list {
+      list-style: none;
+  }
+
+/* шапка */
+
+  .logo {
+    color: var(--title-text-color)
+  }
+
+  .web {
+      color: var(--accent-color)
+  }
+  /* site nav */
+
+  .site-nav .link {
+    color: var(--title-text-color);
+  }
+
+  .site-nav .link:hover, 
+  .site-nav .link:focus {
+  color: var(--accent-color);
+}
+/* class="contacts */
+
+ .contacts .contacts-link {
+    color: var(--primary-text-color);
+ }
+ .contacts .contacts-link:hover,
+ .contacts .contacts-link:focus {
+     color: var(--accent-color);
+ }
+
+ /* герой */
+
+ .hero-title {
+color: var(--primary-white-color);
+ }
+
+ .hero {
+ background-color: rgba(47, 48, 58, 0.8);
+ }
+
+ .button {
+     color: var(--primary-white-color);
+     background-color: var(--accent-color);
+ }
+
+ /*наши преимущества*/
+
+.advantages-icon {
+    background-color:var(--secondary-background-color);
+}
+
+.advantages-title {
+    color: var(--title-text-color);
+}
+
+/*  наше напрвление*/
+
+.directions-title {
+    color:var(--title-text-color)
+}
+
+.directions-item {
+    color: var(--primary-white-color);
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+/* наша команда */
+
+.team {
+    background-color: var(--secondary-background-color);
+}
+
+.team-title {
+    color: var(--title-text-color);
+}
+.team-name {
+    color: var(--title-text-color);
+}
+
+.team-item {
+background-color:var(--primary-white-color);
+}
+.social-links-item:hover,
+.social-links-item:focus {
+    background-color: var(--accent-color)
+}
+
+/* постоянные клиенты */
+
+.clients-title {
+    color: var(--title-text-color);
+}
+.clients-link:hover,
+.clients-link:focus {
+ background-color: var(--accent-color);
+}
+/* футер */
+
+footer {
+    background-color: #2F303A;
+}
+
+.logowhite {
+    color: var(--primary-white-color);
+}
+
+.address-kiev {
+    color: var(--primary-white-color);
+}
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+.join-us {
+    color:var(--primary-white-color)
+}
+.footer-social-links:hover,
+.footer-social-links:focus {
+    background-color:var(--accent-color);
+} 
+
+.develop {
+    color: rgba(255, 255, 255, 0.4);;
+}
