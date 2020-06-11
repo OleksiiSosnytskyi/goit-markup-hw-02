@@ -7,99 +7,137 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body> 
+    <!-- шапка -->
     <header>
-        <a href="./index.html">Web Studio</a>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="">Портфолио</a></li>
-                <li><a href="">Контакты</a></li>
+        <nav> 
+             <a href="./index.html" class="logo"><span class="web">Web </span>Studio</a>
+            <ul class="site-nav list">
+                <li><a href="./index.html" class="link">Студия</a></li>
+                <li><a href="./portfolio.html" class="link current">Портфолио</a></li>    
+                <li><a href="" class="link">Контакты</a></li>
             </ul>
-        </nav>
-        <ul>
-            <li><a href="">info@devstudio.com</a></li>
-            <li><a href="">+38 096 111 11 11"</a></li>
-        </ul>
+         </nav>
+            <ul class="contacts list">
+                  <li><a href="" class="contacts-link"><img src="./images/envelope.svg" alt="letter">info@devstudio.com</a></li>
+                  <li><a href="" class="contacts-link"><img src="./images/mobile.svg" alt="mobile">"+38 096 111 11 11"</></li>
+            </ul>
     </header>
     <main>
-         <!-- виды работ -->
+         <!-- кнопки -->
          <section>
-            <ul>
-                <li><a href="">Все</a></li>
-                <li><a href="">Веб-сайты</a></li>
-                <li><a href="">Приложения</a></li>
-                <li><a href="">Дизайн</a></li>
-                <li><a href="">Маркетинг</a></li>
+            <ul class="buttons">
+                <li><button class="buttons-item" type=button>Все</button></a></li>
+                <li><button class="buttons-item" type=button>Веб-сайты</button></a></li>
+                <li><button class="buttons-item" type=button type=button>Приложения</button></a></li>
+                <li><button class="buttons-item" type=button type=button>Дизайн</button></a></li>
+                <li><button class="buttons-item" type=button type=button>Маркетинг</button></a></li>
             </ul>
-       
-            <ul>
+       <!-- виды работ -->
+            <ul class="projects">
                 <li>
-                    <h2>Технокряк</h2>
+                    <img
+                        src="./images/tehno.jpg" 
+                        alt="технокряк"
+                        width="370"
+                        height="294">
+                    <h2 class="projects-title">Технокряк</h2>
                     <p>Веб-сайт</p>
                 </li>
                 <li>
-                    <a href=""><img src="./images/new-orlean.jpg" alt="постер Нью Орлеан"></a>
-                    <h2>Постер New Orlean vs Golden Star</h2>
+                    <img 
+                        src="./images/new-orlean.jpg" 
+                        alt="постер Нью Орлеан"
+                        width="370"
+                        height="294">
+                    <h2 class="projects-title">Постер New Orlean vs Golden Star</h2>
                     <p>Дизайн</p>
                 </li>
                 <li>
-                    <a href=""><img src="./images/seafood.jpg" alt="ресторан морепродукты"></a>
-                    <h2>Ресторан Seafood</h2>
+                    <img 
+                        src="./images/seafood.jpg" 
+                        alt="ресторан морепродукты"
+                        width="370"
+                        height="294">
+                    <h2 class="projects-title">Ресторан Seafood</h2>
                     <p>Приложение</p>
                 </li> 
                 <li>
-                    <a href=""><img src="./images/headphones.jpg" alt="проект Прайм"></a>
-                    <h2>Проект Prime</h2>
+                    <img 
+                        src="./images/headphones.jpg" 
+                        alt="проект Прайм"
+                        width="370"
+                        height="294">
+                    <h2 class="projects-title">Проект Prime</h2>
                     <p>Маркетинг</p>
                 </li>
                 <li>
-                    <a href=""><img src="./images/boxes.jpg" alt="проект коробки"></a>
-                    <h2>Проект Boxes</h2>
+                    <img 
+                        src="./images/boxes.jpg" 
+                        alt="проект коробки"
+                        width="370"
+                        height="294">
+                    <h2 class="projects-title">Проект Boxes</h2>
                     <p>Приложение</p>
                 </li>
                 <li>
-                    <a href=""><img src="./images/inspiration-has-no-borders.jpg" alt="Вдохновение не имеет границ"></a>
-                    <h2>Inspiration has no Borders</h2>
+                    <img 
+                        src="./images/inspiration-has-no-borders.jpg" 
+                        alt="Вдохновение не имеет границ"
+                        width="370"
+                        height="294">
+                    <h2 class="projects-title">Inspiration has no Borders</h2>
                     <p>Веб-сайт</p>
                 </li>
                 <li>
-                    <a href=""><img src="./images/limited-edition.jpg" alt=" издание ограниченный выпуск"></a>
-                    <h2>Издание Limited Edition</h2>
+                    <img 
+                        src="./images/limited-edition.jpg" 
+                        alt=" издание ограниченный выпуск"
+                        width="370"
+                        height="294">
+                    <h2 class="projects-title">Издание Limited Edition</h2>
                     <p>Дизайн</p>
                 </li>
                 <li>
-                    <a href=""><img src="./images/lab.jpg" alt="проект ЛАБ"></a>
-                    <h2>Проект LAB</h2>
+                    <img 
+                        src="./images/lab.jpg" 
+                        alt="проект ЛАБ"
+                        width="370"
+                        height="294">
+                    <h2 class="projects-title">Проект LAB</h2>
                     <p>Маркетинг</p>
                 </li>
                 <li>
-                    <a href=""><img src="./images/growing-business.jpg" alt="Растущий бизнес"></a>
-                    <h2>Growing Business</h2>
+                    <img 
+                        src="./images/growing-business.jpg" 
+                        alt="Растущий бизнес"
+                        width="370"
+                        height="294">
+                    <h2 class="projects-title"Growing Business</h2>
                     <p>Приложение</p>
                 </li>
             </ul>
         </section>
     </main>
     <footer>
-        <div>
+        <div class="address">
             <address>
-             <a href="./index.html">Web Studio</a><br />
-             г. Киев, Бульвар Леси Украинки, д. 26
+             <a href="./index.html" class="logowhite"><span class="web">Web </span>Studio</a><br />
+            <span class="address-kiev">г. Киев, Бульвар Леси Украинки, д. 26</span> 
              </address>
              <address>
-             <a href="info@devstudio.com">info@devstudio.com</a><br />
-             <a href="tel:+380961111111">+38 096 111 11 11</a>
+             <a href="info@devstudio.com" class="footer-contacts">info@devstudio.com</a><br />
+             <a href="tel:+380961111111" class="footer-contacts">+38 096 111 11 11</a>
            </address>
         </div>
-        <div>
-            <b>присоединяйтесь</b>
-            <ul>
-              <li><a href="" aria-label="ссылка на instagram">instagram</a></li>
-              <li><a href="" aria-label="ссылка на twitter">twitter</a></li>
-              <li><a href="" aria-label="ссылка на facebook">facebook</a></li>
-              <li><a href="" aria-label="ссылка на linkedin">facebook</a></li>
+        <div class="footer-links">
+            <b class="join-us">присоединяйтесь</b>
+            <ul class="list">
+              <li><a href="" class="footer-social-links" aria-label="ссылка на instagram">instagram</a></li>
+              <li><a href="" class="footer-social-links" aria-label="ссылка на twitter">twitter</a></li>
+              <li><a href="" class="footer-social-links" aria-label="ссылка на facebook">facebook</a></li>
+              <li><a href="" class="footer-social-links" aria-label="ссылка на linkedin">facebook</a></li>
           </ul>
-          <p>2020 | Developed by GoIT Students </p>
+          <p class="develop">2020 | Developed by GoIT Students </p>
         </div>
        </footer>
 </body>

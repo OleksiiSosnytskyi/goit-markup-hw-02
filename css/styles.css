@@ -34,17 +34,21 @@ color: rgba(255, 255, 255, 0.6); info@example.com +38 099 111 11 11 */
 /* шапка */
 
   .logo {
-    color: var(--title-text-color)
+    color: var(--title-text-color);
   }
 
   .web {
-      color: var(--accent-color)
+      color: var(--accent-color);
   }
   /* site nav */
 
   .site-nav .link {
     color: var(--title-text-color);
   }
+
+ .site-nav .link.current {
+    color: var(--accent-color);
+}
 
   .site-nav .link:hover, 
   .site-nav .link:focus {
@@ -152,4 +156,24 @@ footer {
 
 .develop {
     color: rgba(255, 255, 255, 0.4);;
+}
+
+
+/* стили для портфолио */
+
+
+
+
+
+.buttons-item {
+    color: var(--title-text-color);
+    background-color:var(--secondary-background-color);
+}
+.buttons-item:hover,
+.buttons-item:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+.projects-title {
+    color: var(--title-text-color);
 }
